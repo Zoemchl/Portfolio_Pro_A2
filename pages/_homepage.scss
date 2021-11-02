@@ -48,16 +48,18 @@ a:hover {
 }
 
 .containerhome {
-    padding: 10px;
     height: 100vh;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-gap: 10px;
+    border: solid 10px $colorone;
+    gap: 10px;
+    background-color: $colorone;
 }
 
 .boxone {
+    overflow: hidden;
     background: $colortwo;
     padding: 20px;
     grid-column: 1 / 4;

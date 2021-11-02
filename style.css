@@ -80,16 +80,18 @@ a:hover {
 }
 
 .containerhome {
-  padding: 10px;
   height: 100vh;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-gap: 10px;
+  border: solid 10px whitesmoke;
+  gap: 10px;
+  background-color: whitesmoke;
 }
 
 .boxone {
+  overflow: hidden;
   background: #B9A581;
   padding: 20px;
   grid-column: 1/4;
@@ -135,7 +137,7 @@ a:hover {
   text-align: center;
 }
 
-img {
+img .marginfix {
   margin: 10%;
   background-color: #DFD1B9;
   width: 50%;
