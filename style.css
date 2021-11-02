@@ -1,86 +1,368 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    background: whitesmoke;
-}
-
 h1 {
-    background-color: #CCB58E;
-    font-family: Cyrene;
-    font-size: 500%;
+  text-align: center;
+  font-family: Cyrene;
+  font-size: 90px;
+  color: black;
 }
 
-.smalltext {
-    background-color: #CCB58E;
-    font-family: quicksand;
-    font-weight: bold;
-    font-size: 120%;
-    text-align: center left;
-    position: relative;
-    top: 25%;
+h2 {
+  font-family: Cyrene;
+  font-size: 30px;
+}
+
+.homepage, .skills, .projects {
+  text-align: center;
+  flex: auto;
+  border-radius: 10px;
+}
+
+#menu {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  top: 1px;
 }
 
 a {
-    font-family: Cyrene;
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background: whitesmoke;
+}
+
+h3 {
+  background-color: #CCB58E;
+  font-family: Cyrene;
+  font-size: 500%;
+}
+
+.smalltext {
+  background-color: #CCB58E;
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center left;
+  position: relative;
+  top: 25%;
+}
+
+a {
+  font-family: Cyrene;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
 
 a:hover {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .titleproject {
-    background-color: #D3BE9D;
+  background-color: #D3BE9D;
 }
 
 .titleskills {
-    background-color: #DFD1B9;
+  background-color: #DFD1B9;
 }
 
-.container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.containerhome img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.container {
-    padding: 10px;
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-gap: 10px;
+.containerhome {
+  padding: 10px;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
 }
 
 .boxone {
-    background: #B9A581;
-    padding: 20px;
-    grid-column: 1 / 4;
-    grid-row: 1 / 6;
+  background: #B9A581;
+  padding: 20px;
+  grid-column: 1/4;
+  grid-row: 1/6;
 }
 
 .boxtwo {
-    background: #CCB58E;
-    padding: 20px;
-    grid-column: 4 / 6;
-    grid-row: 1 / 4;
+  background: #CCB58E;
+  padding: 20px;
+  grid-column: 4/6;
+  grid-row: 1/4;
 }
 
 .boxthree {
-    background: #D3BE9D;
-    padding: 20px;
-    grid-column:5 / 6;
-    grid-row: 4 / 6;
+  background: #D3BE9D;
+  padding: 20px;
+  grid-column: 5/6;
+  grid-row: 4/6;
 }
 
 .boxfour {
-    background: #DFD1B9;
-    padding: 20px;
-    grid-column: 4 / 5;
-    grid-row: 4 / 6;
+  background: #DFD1B9;
+  padding: 20px;
+  grid-column: 4/5;
+  grid-row: 4/6;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #DFD1B9;
+}
+
+.grid {
+  border: 15px solid whitesmoke;
+  margin: 5%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+img {
+  margin: 10%;
+  background-color: #DFD1B9;
+  width: 50%;
+  clip-path: square(60px at center);
+  justify-content: center;
+}
+
+.one {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.two {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.three {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+
+.four {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.five {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.six {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.seven {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+
+.eight {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.nine {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.ten {
+  grid-column: 5/6;
+  grid-row: 4/5;
+}
+
+.eleven {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+.twelve {
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #DFD1B9;
+}
+
+.projectone {
+  margin: 10%;
+  border: 15px solid whitesmoke;
+  font-family: Quicksand;
+  background-color: #CCB58E;
+  color: black;
+  font-size: 30px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p {
+  background-color: #CCB58E;
+  font-size: 25px;
+}
+
+img, .logofrad {
+  width: 30%;
+  height: 30%;
+  background-color: #CCB58E;
+}
+
+.projecttwo {
+  margin: 10%;
+  border: 15px solid whitesmoke;
+  font-family: Quicksand;
+  background-color: #CCB58E;
+  color: black;
+  font-size: 30px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkp {
+  background-color: #CCB58E;
+}
+
+.linkp:hover {
+  color: whitesmoke;
+  text-shadow: 0 0 15px whitesmoke;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #DFD1B9;
+}
+
+.fradone {
+  margin: 10%;
+  border: 15px solid whitesmoke;
+  font-family: Quicksand;
+  background-color: #CCB58E;
+  color: black;
+  font-size: 30px;
+  padding: 5%;
+}
+
+img, .logofrad {
+  width: 30%;
+  height: 30%;
+  background-color: #CCB58E;
+}
+
+p {
+  background-color: #CCB58E;
+  font-size: 25px;
+}
+
+.fradtwo {
+  margin: 10%;
+  border: 15px solid whitesmoke;
+  font-family: Quicksand;
+  background-color: #CCB58E;
+  color: black;
+  font-size: 30px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fradthree {
+  margin: 10%;
+  font-family: Quicksand;
+  background-color: #CCB58E;
+  color: black;
+  font-size: 30px;
+  /* padding: 5%; */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #DFD1B9;
+}
+
+.frankone {
+  margin: 10%;
+  border: 15px solid whitesmoke;
+  font-family: Quicksand;
+  background-color: #CCB58E;
+  color: black;
+  font-size: 30px;
+  padding: 5%;
+}
+
+img, .logofrad {
+  width: 20%;
+  height: 20%;
+  background-color: #CCB58E;
+}
+
+p {
+  background-color: #CCB58E;
+  font-size: 25px;
+}
+
+.franktwo {
+  margin: 10%;
+  border: 15px solid whitesmoke;
+  font-family: Quicksand;
+  background-color: #CCB58E;
+  color: black;
+  font-size: 30px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.frankthree {
+  margin: 10%;
+  border: 15px solid whitesmoke;
+  font-family: Quicksand;
+  background-color: #CCB58E;
+  color: black;
+  font-size: 30px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

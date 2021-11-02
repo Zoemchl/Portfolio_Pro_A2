@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background: $colorone;
+}
+
+h3 {
+    background-color: $colorthree;
+    font-family: $titlefont;
+    font-size: 500%;
+}
+
+.smalltext {
+    background-color: $colorthree;
+    font-family: $textfont;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center left;
+    position: relative;
+    top: 25%;
+}
+
+a {
+    font-family: $titlefont;
+    text-decoration: none;
+    color: $textcolour;
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+a:hover {
+    color: $colorone;
+}
+
+.titleproject {
+    background-color: $colorfour;
+}
+
+.titleskills {
+    background-color: $colourfive;
+}
+
+.containerhome img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containerhome {
+    padding: 10px;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+.boxone {
+    background: $colortwo;
+    padding: 20px;
+    grid-column: 1 / 4;
+    grid-row: 1 / 6;
+}
+
+.boxtwo {
+    background: $colorthree;
+    padding: 20px;
+    grid-column: 4 / 6;
+    grid-row: 1 / 4;
+}
+
+.boxthree {
+    background: $colorfour;
+    padding: 20px;
+    grid-column:5 / 6;
+    grid-row: 4 / 6;
+}
+
+.boxfour {
+    background: $colourfive;
+    padding: 20px;
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+}

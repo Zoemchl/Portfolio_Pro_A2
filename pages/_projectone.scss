@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $colourfive;
+}
+
+.fradone {
+    margin: 10%;
+    border: 15px solid $colorone;
+	font-family: $textfont;
+    background-color: $colorthree;
+	color: $textcolour;
+	font-size: 30px;
+	padding: 5%;
+}
+
+img, .logofrad {
+    width: 30%;
+    height: 30%;
+    background-color: $colorthree;
+}
+
+p {
+    background-color: $colorthree;
+    font-size: 25px;
+}
+
+.fradtwo {
+    margin: 10%;
+    border: 15px solid $colorone;
+	font-family: $textfont;
+    background-color: $colorthree;
+	color: $textcolour;
+	font-size: 30px;
+	padding: 5%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.fradthree {
+    margin: 10%;
+	font-family: $textfont;
+    background-color: $colorthree;
+	color: $textcolour;
+	font-size: 30px;
+	/* padding: 5%; */
+}

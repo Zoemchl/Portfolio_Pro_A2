@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $colourfive;
+}
+
+.frankone {
+    margin: 10%;
+    border: 15px solid $colorone;
+	font-family: $textfont;
+    background-color: $colorthree;
+	color: $textcolour;
+	font-size: 30px;
+	padding: 5%;
+}
+
+img, .logofrad {
+    width: 20%;
+    height: 20%;
+    background-color: $colorthree;
+}
+
+p {
+    background-color: $colorthree;
+    font-size: 25px;
+}
+
+.franktwo {
+    margin: 10%;
+    border: 15px solid $colorone;
+	font-family: $textfont;
+    background-color: $colorthree;
+	color: $textcolour;
+	font-size: 30px;
+	padding: 5%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.frankthree {
+    margin: 10%;
+    border: 15px solid $colorone;
+	font-family: $textfont;
+    background-color: $colorthree;
+	color: $textcolour;
+	font-size: 30px;
+	padding: 5%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}

@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $colourfive;
+}
+
+.projectone {
+    margin: 10%;
+    border: 15px solid $colorone;
+	font-family: $textfont;
+    background-color: $colorthree;
+	color: $textcolour;
+	font-size: 30px;
+	padding: 5%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    background-color: $colorthree;
+    font-size: 25px;
+}
+
+img, .logofrad {
+    width: 30%;
+    height: 30%;
+    background-color: $colorthree;
+}
+
+.projecttwo {
+    margin: 10%;
+    border: 15px solid $colorone;
+	font-family: $textfont;
+    background-color: $colorthree;
+	color: $textcolour;
+	font-size: 30px;
+	padding: 5%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkp {
+    background-color: $colorthree;
+}
+
+.linkp:hover {
+    color: $colorone;
+    text-shadow: 0 0 15px $colorone;
+}
