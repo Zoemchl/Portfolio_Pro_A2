@@ -4,6 +4,43 @@
     background: whitesmoke;
 }
 
+h1 {
+    background-color: #CCB58E;
+    font-family: Cyrene;
+    font-size: 500%;
+}
+
+.smalltext {
+    background-color: #CCB58E;
+    font-family: quicksand;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center left;
+    position: relative;
+    top: 25%;
+}
+
+a {
+    font-family: Cyrene;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.titleproject {
+    background-color: #D3BE9D;
+}
+
+.titleskills {
+    background-color: #DFD1B9;
+}
+
 .container img {
     width: 100%;
     height: 100%;
